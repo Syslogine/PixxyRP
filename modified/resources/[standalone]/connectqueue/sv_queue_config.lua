@@ -9,14 +9,10 @@ Config.Priority = {
     ["ip:127.0.0.0"] = 85
 }
 
--- require people to run steam
-Config.RequireSteam = false
+Config.RequireSteam = true
 
 -- "whitelist" only server
 Config.PriorityOnly = false
-
--- disables hardcap, should keep this true
-Config.DisableHardCap = true
 
 -- will remove players from connecting if they don't load within: __ seconds; May need to increase this if you have a lot of downloads.
 -- i have yet to find an easy way to determine whether they are still connecting and downloading content or are hanging in the loadscreen.
